@@ -1,0 +1,1689 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta name="facebook-domain-verification" content="kglo17kluuzfqjrtevd39pi0mlv54x" />
+
+  <script>
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "https://183661.t.hyros.com/v1/lst/universal-script?ph=e366afe70d6d4d38b0bf3352a614bc83d1da84953f64c790852135d5b327ac75&tag=!clicked&ref_url=" + encodeURI(document.URL) ;
+    head.appendChild(script);
+  </script>
+
+
+  <title>
+    Stores by Soulja
+</title>
+
+<script>
+
+if(!window.jQuery){
+    var jqueryScript = document.createElement('script');
+    jqueryScript.setAttribute('src','https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'); 
+    document.head.appendChild(jqueryScript); 
+}
+
+__DL__jQueryinterval = setInterval(function(){
+    // wait for jQuery to load & run script after jQuery has loaded
+    if(window.jQuery){
+        // search parameters
+        getURLParams = function(name, url){
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
+        
+        /**********************
+        * DYNAMIC DEPENDENCIES
+        ***********************/
+        
+        __DL__ = {
+            dynamicCart: true,  // if cart is dynamic (meaning no refresh on cart add) set to true
+            debug: false, // if true, console messages will be displayed
+            cart: null,
+            wishlist: null,
+            removeCart: null
+        };
+        
+        customBindings = {
+            cartTriggers: [],
+            viewCart: [],
+            removeCartTrigger: [],
+            cartVisableSelector: [],
+            promoSubscriptionsSelectors: [],
+            promoSuccess: [],
+            ctaSelectors: [],
+            newsletterSelectors: [],
+            newsletterSuccess: [],
+            searchPage: [],
+            wishlistSelector: [],
+            removeWishlist: [],
+            wishlistPage: [],
+            searchTermQuery: [getURLParams('q')], // replace var with correct query
+        };
+        
+        /* DO NOT EDIT */
+        defaultBindings = {
+            cartTriggers: ['form[action="/cart/add"] [type="submit"],.add-to-cart,.cart-btn'],
+            viewCart: ['form[action="/cart"],.my-cart,.trigger-cart,#mobileCart'],
+            removeCartTrigger: ['[href*="/cart/change"]'],
+            cartVisableSelector: ['.inlinecart.is-active,.inline-cart.is-active'],
+            promoSubscriptionsSelectors: [],
+            promoSuccess: [],
+            ctaSelectors: [],
+            newsletterSelectors: ['input.contact_email'],
+            newsletterSuccess: ['.success_message'],
+            searchPage: ['search'],
+            wishlistSelector: [],
+            removeWishlist: [],
+            wishlistPage: []
+        };
+        
+        // stitch bindings
+        objectArray = customBindings;
+        outputObject = __DL__;
+        
+        applyBindings = function(objectArray, outputObject){
+            for (var x in objectArray) {  
+                var key = x;
+                var objs = objectArray[x]; 
+                values = [];    
+                if(objs.length > 0){    
+                    values.push(objs);
+                    if(key in outputObject){              
+                        values.push(outputObject[key]); 
+                        outputObject[key] = values.join(", "); 
+                    }else{        
+                        outputObject[key] = values.join(", ");
+                    }   
+                }  
+            }
+        };
+        
+        applyBindings(customBindings, __DL__);
+        applyBindings(defaultBindings, __DL__);
+        
+        /**********************
+        * PREREQUISITE LIBRARIES 
+        ***********************/
+        
+        clearInterval(__DL__jQueryinterval);
+        
+        // jquery-cookies.js
+        if(typeof $.cookie!==undefined){
+            (function(a){if(typeof define==='function'&&define.amd){define(['jquery'],a)}else if(typeof exports==='object'){module.exports=a(require('jquery'))}else{a(jQuery)}}(function($){var g=/\+/g;function encode(s){return h.raw?s:encodeURIComponent(s)}function decode(s){return h.raw?s:decodeURIComponent(s)}function stringifyCookieValue(a){return encode(h.json?JSON.stringify(a):String(a))}function parseCookieValue(s){if(s.indexOf('"')===0){s=s.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,'\\')}try{s=decodeURIComponent(s.replace(g,' '));return h.json?JSON.parse(s):s}catch(e){}}function read(s,a){var b=h.raw?s:parseCookieValue(s);return $.isFunction(a)?a(b):b}var h=$.cookie=function(a,b,c){if(arguments.length>1&&!$.isFunction(b)){c=$.extend({},h.defaults,c);if(typeof c.expires==='number'){var d=c.expires,t=c.expires=new Date();t.setMilliseconds(t.getMilliseconds()+d*864e+5)}return(document.cookie=[encode(a),'=',stringifyCookieValue(b),c.expires?'; expires='+c.expires.toUTCString():'',c.path?'; path='+c.path:'',c.domain?'; domain='+c.domain:'',c.secure?'; secure':''].join(''))}var e=a?undefined:{},cookies=document.cookie?document.cookie.split('; '):[],i=0,l=cookies.length;for(;i<l;i++){var f=cookies[i].split('='),name=decode(f.shift()),cookie=f.join('=');if(a===name){e=read(cookie,b);break}if(!a&&(cookie=read(cookie))!==undefined){e[name]=cookie}}return e};h.defaults={};$.removeCookie=function(a,b){$.cookie(a,'',$.extend({},b,{expires:-1}));return!$.cookie(a)}}))}
+        
+        /**********************
+        * Begin dataLayer Build 
+        ***********************/
+        
+        window.dataLayer = window.dataLayer || [];  // init data layer if doesn't already exist
+
+        var template = "index"; 
+        
+        /**
+        * Landing Page Cookie
+        * 1. Detect if user just landed on the site
+        * 2. Only fires if Page Title matches website */
+        
+        $.cookie.raw = true;
+        if ($.cookie('landingPage') === undefined || $.cookie('landingPage').length === 0) {
+            var landingPage = true;
+            $.cookie('landingPage', unescape);
+            $.removeCookie('landingPage', {path: '/'});
+            $.cookie('landingPage', 'landed', {path: '/'});
+        } else {
+            var landingPage = false;
+            $.cookie('landingPage', unescape);
+            $.removeCookie('landingPage', {path: '/'});
+            $.cookie('landingPage', 'refresh', {path: '/'});
+        }
+        if (__DL__.debug) {
+            console.log('Landing Page: ' + landingPage);
+        }
+        
+        /** 
+        * Log State Cookie */
+        
+        
+        var isLoggedIn = false;
+        
+        if (!isLoggedIn) {
+            $.cookie('logState', unescape);
+            $.removeCookie('logState', {path: '/'});
+            $.cookie('logState', 'loggedOut', {path: '/'});
+        } else {
+            if ($.cookie('logState') === 'loggedOut' || $.cookie('logState') === undefined) {
+                $.cookie('logState', unescape);
+                $.removeCookie('logState', {path: '/'});
+                $.cookie('logState', 'firstLog', {path: '/'});
+            } else if ($.cookie('logState') === 'firstLog') {
+                $.cookie('logState', unescape);
+                $.removeCookie('logState', {path: '/'});
+                $.cookie('logState', 'refresh', {path: '/'});
+            }
+        }
+        
+        if ($.cookie('logState') === 'firstLog') {
+            var firstLog = true;
+        } else {
+            var firstLog = false;
+        }
+        
+        /**********************
+        * DATALAYER SECTIONS 
+        ***********************/
+        
+        /**
+        * DATALAYER: Landing Page
+        * Fires any time a user first lands on the site. */
+        
+        if ($.cookie('landingPage') === 'landed') {
+            dataLayer.push({
+                'pageType': 'Landing',
+                'event': 'first_time_visitor'
+            });
+        }
+        
+        /** 
+        * DATALAYER: Log State
+        * 1. Determine if user is logged in or not.
+        * 2. Return User specific data. */
+        
+        var logState = {
+            
+            'firstLog'      : firstLog,
+            'customerEmail' : null,
+            'timestamp'     : Date().replace(/\(.*?\)/g,''),  
+            
+            'customerType'       : 'New',
+            'customerTypeNumber' :'1', 
+            
+            'shippingInfo' : {
+                'fullName'  : null,
+                'firstName' : null,
+                'lastName'  : null,
+                'address1'  : null,
+                'address2'  : null,
+                'street'    : null,
+                'city'      : null,
+                'province'  : null,
+                'zip'       : null,
+                'country'   : null,
+                'phone'     : null,
+            },
+            'billingInfo' : {
+                'fullName'  : null,
+                'firstName' : null,
+                'lastName'  : null,
+                'address1'  : null,
+                'address2'  : null,
+                'street'    : null,
+                'city'      : null,
+                'province'  : null,
+                'zip'       : null,
+                'country'   : null,
+                'phone'     : null,
+            },
+            'checkoutEmail' : null,
+            'currency'      : "USD",
+            'pageType'      : 'Log State',
+            'event'         : 'logState'
+        }
+        dataLayer.push(logState);
+
+        /** 
+        * DATALAYER: Homepage */
+        
+        if(document.location.pathname == "/"){
+            dataLayer.push({
+                'pageType' : 'Homepage',
+                'event'    : 'homepage',
+                logState
+            });
+        }
+      
+        /** 
+        * DATALAYER: 404 Pages
+        * Fire on 404 Pages */
+      	
+
+        /** 
+        * DATALAYER: Blog Articles
+        * Fire on Blog Article Pages */
+        
+        
+        /** DATALAYER: Product List Page (Collections, Category)
+        * Fire on all product listing pages. */
+        
+            
+        /** DATALAYER: Product Page
+        * Fire on all Product View pages. */
+        
+      
+        /** DATALAYER: Cart View
+        * Fire anytime a user views their cart (non-dynamic) */               
+        
+                
+        /** DATALAYER: Checkout on Shopify Plus **/
+        if(Shopify.Checkout){
+            var ecommerce = {
+                'transaction_id': 'null',
+                'affiliation': "Stores by Soulja",
+                'value': "",
+                'tax': "",
+                'shipping': "",
+                'subtotal': "",
+                'currency': null,
+                
+                'email': null,
+                'items':[],
+                };
+            if(Shopify.Checkout.step){ 
+                if(Shopify.Checkout.step.length > 0){
+                    if (Shopify.Checkout.step === 'contact_information'){
+                        dataLayer.push({
+                            'event'    :'begin_checkout',
+                            'pageType' :'Customer Information',
+                            'step': 1,
+                        	ecommerce
+                        });
+                    }else if (Shopify.Checkout.step === 'shipping_method'){
+                        dataLayer.push({
+                            'event'    :'add_shipping_info',
+                            'pageType' :'Shipping Information',
+                            ecommerce
+                        });
+                    }else if( Shopify.Checkout.step === "payment_method" ){
+                        dataLayer.push({
+                            'event'    :'add_payment_info',
+                            'pageType' :'Add Payment Info',
+                        	ecommerce
+                        });
+                    }
+                }
+                            
+                /** DATALAYER: Transaction */
+                if(Shopify.Checkout.page == "thank_you"){
+                    dataLayer.push({
+                    'pageType' :'Transaction',
+                    'event'    :'purchase',
+                    ecommerce
+                    });
+                }               
+            }
+        }
+              
+	    /** DOM Ready **/	
+        $(document).ready(function() {
+
+            /** DATALAYER: Search Results */
+            var searchPage = new RegExp(__DL__.searchPage, "g");
+            if(document.location.pathname.match(searchPage)){
+                var ecommerce = {
+                    items :[],
+                };
+                dataLayer.push({
+                    'pageType'   : "Search",
+                    'search_term' : __DL__.searchTermQuery,                                       
+                    'event'      : "search",
+                    'item_list_name'  : null,
+                    ecommerce
+                });    
+            }
+            
+            /** DATALAYER: Remove From Cart **/
+            
+
+            /** Google Tag Manager **/
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TDCZMXZ');
+
+        }); // document ready
+    }
+}, 500);
+  
+</script>
+
+    <style>
+    *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#AAB2BD}::before,::after{--tw-content: ''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Inter,sans-serif}body{margin:0;line-height:inherit}h1,h2,h3{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button{text-transform:none}button,[type='button'],[type='submit']{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}h1,h2,h3,p{margin:0}input::-moz-placeholder{opacity:1;color:rgba(170,178,189,0.5)}input:-ms-input-placeholder{opacity:1;color:rgba(170,178,189,0.5)}img,svg{display:block;vertical-align:middle}img{max-width:100%;height:auto}*,::before,::after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x:  ;--tw-pan-y:  ;--tw-pinch-zoom:  ;--tw-scroll-snap-strictness: proximity;--tw-ordinal:  ;--tw-slashed-zero:  ;--tw-numeric-figure:  ;--tw-numeric-spacing:  ;--tw-numeric-fraction:  ;--tw-ring-inset:  ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / 0.5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur:  ;--tw-brightness:  ;--tw-contrast:  ;--tw-grayscale:  ;--tw-hue-rotate:  ;--tw-invert:  ;--tw-saturate:  ;--tw-sepia:  ;--tw-drop-shadow:  ;--tw-backdrop-blur:  ;--tw-backdrop-brightness:  ;--tw-backdrop-contrast:  ;--tw-backdrop-grayscale:  ;--tw-backdrop-hue-rotate:  ;--tw-backdrop-invert:  ;--tw-backdrop-opacity:  ;--tw-backdrop-saturate:  ;--tw-backdrop-sepia:  }::-webkit-backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x:  ;--tw-pan-y:  ;--tw-pinch-zoom:  ;--tw-scroll-snap-strictness: proximity;--tw-ordinal:  ;--tw-slashed-zero:  ;--tw-numeric-figure:  ;--tw-numeric-spacing:  ;--tw-numeric-fraction:  ;--tw-ring-inset:  ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / 0.5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur:  ;--tw-brightness:  ;--tw-contrast:  ;--tw-grayscale:  ;--tw-hue-rotate:  ;--tw-invert:  ;--tw-saturate:  ;--tw-sepia:  ;--tw-drop-shadow:  ;--tw-backdrop-blur:  ;--tw-backdrop-brightness:  ;--tw-backdrop-contrast:  ;--tw-backdrop-grayscale:  ;--tw-backdrop-hue-rotate:  ;--tw-backdrop-invert:  ;--tw-backdrop-opacity:  ;--tw-backdrop-saturate:  ;--tw-backdrop-sepia:  }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x:  ;--tw-pan-y:  ;--tw-pinch-zoom:  ;--tw-scroll-snap-strictness: proximity;--tw-ordinal:  ;--tw-slashed-zero:  ;--tw-numeric-figure:  ;--tw-numeric-spacing:  ;--tw-numeric-fraction:  ;--tw-ring-inset:  ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / 0.5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur:  ;--tw-brightness:  ;--tw-contrast:  ;--tw-grayscale:  ;--tw-hue-rotate:  ;--tw-invert:  ;--tw-saturate:  ;--tw-sepia:  ;--tw-drop-shadow:  ;--tw-backdrop-blur:  ;--tw-backdrop-brightness:  ;--tw-backdrop-contrast:  ;--tw-backdrop-grayscale:  ;--tw-backdrop-hue-rotate:  ;--tw-backdrop-invert:  ;--tw-backdrop-opacity:  ;--tw-backdrop-saturate:  ;--tw-backdrop-sepia:  }.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-x-0{left:0px;right:0px}.top-0{top:0px}.bottom-0{bottom:0px}.left-0{left:0px}.top-6{top:1.5rem}.left-6{left:1.5rem}.z-50{z-index:50}.z-\[100\]{z-index:100}.z-10{z-index:10}.z-40{z-index:40}.col-span-12{grid-column:span 12 / span 12}.col-span-1{grid-column:span 1 / span 1}.col-span-3{grid-column:span 3 / span 3}.m-auto{margin:auto}.m-0{margin:0px}.mx-auto{margin-left:auto;margin-right:auto}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.mb-4{margin-bottom:1rem}.ml-0{margin-left:0px}.-mr-2{margin-right:-0.5rem}.ml-3{margin-left:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-0{margin-bottom:0px}.ml-2{margin-left:0.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-auto{height:auto}.h-\[72px\]{height:72px}.h-full{height:100%}.h-5{height:1.25rem}.h-\[40px\]{height:40px}.h-6{height:1.5rem}.min-h-\[380px\]{min-height:380px}.w-full{width:100%}.w-\[100\%\]{width:100%}.w-5{width:1.25rem}.w-\[40px\]{width:40px}.w-6{width:1.5rem}.min-w-\[20px\]{min-width:20px}.flex-1{flex:1 1 0%}.origin-top-left{transform-origin:top left}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-0{gap:0px}.gap-4{gap:1rem}.gap-\[0\.5rem\]{gap:0.5rem}.gap-y-3{row-gap:0.75rem}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.divide-y-2>:not([hidden])~:not([hidden]){--tw-divide-y-reverse: 0;border-top-width:calc(2px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(2px * var(--tw-divide-y-reverse))}.divide-gray-50>:not([hidden])~:not([hidden]){--tw-divide-opacity: 1;border-color:rgb(251 251 251 / var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-nowrap{white-space:nowrap}.rounded-lg{border-radius:0.5rem}.rounded-sm{border-radius:0.125rem}.rounded-md{border-radius:0.375rem}.rounded{border-radius:0.25rem}.rounded-3xl{border-radius:1.5rem}.border{border-width:1px}.border-gray-100{--tw-border-opacity: 1;border-color:rgb(230 233 238 / var(--tw-border-opacity))}.bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(230 233 238 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-purple-50{background-color:#7335fc0d}.object-contain{-o-object-fit:contain;object-fit:contain}.object-cover{-o-object-fit:cover;object-fit:cover}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-\[10px\]{padding:10px}.p-5{padding:1.25rem}.p-1{padding:0.25rem}.p-0{padding:0px}.py-16{padding-top:4rem;padding-bottom:4rem}.px-4{padding-left:1rem;padding-right:1rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.pl-0{padding-left:0px}.pb-6{padding-bottom:1.5rem}.pb-3{padding-bottom:0.75rem}.pt-3{padding-top:0.75rem}.pb-0{padding-bottom:0px}.pb-4{padding-bottom:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-small{font-size:14px;line-height:130%}.text-t5Regular{font-size:16px}.text-micro{font-size:11px}.text-t4Regular{font-size:24px}.text-caption{font-size:12px}.text-body{font-size:16px}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-extra-bold{font-weight:800}.uppercase{text-transform:uppercase}.leading-5{line-height:1.25rem}.leading-\[20px\]{line-height:20px}.leading-9{line-height:2.25rem}.leading-\[138\%\]{line-height:138%}.text-black{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.opacity-100{opacity:1}.opacity-50{opacity:0.5}.shadow-lg{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.ring-black{--tw-ring-opacity: 1;--tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity))}.ring-opacity-5{--tw-ring-opacity: 0.05}@media (min-width:749px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width:990px){.md\:col-span-5{grid-column:span 5 / span 5}.md\:mb-0{margin-bottom:0px}.md\:mb-8{margin-bottom:2rem}.md\:block{display:block}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-96{height:24rem}.md\:h-\[288px\]{height:288px}.md\:w-56{width:14rem}.md\:grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:gap-4{gap:1rem}.md\:space-x-10>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(2.5rem * var(--tw-space-x-reverse));margin-left:calc(2.5rem * calc(1 - var(--tw-space-x-reverse)))}.md\:space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.md\:p-8{padding:2rem}.md\:px-20{padding-left:5rem;padding-right:5rem}.md\:px-0{padding-left:0px;padding-right:0px}.md\:py-0{padding-top:0px;padding-bottom:0px}.md\:text-left{text-align:left}.md\:text-t4SemiBold{font-size:24px}.md\:text-t3Regular{font-size:32px}.md\:text-t2Regular{font-size:44px;letter-spacing:-0.03rem}.md\:leading-\[46px\]{line-height:46px}}@media (min-width:1200px){.lg\:my-0{margin-top:0px;margin-bottom:0px}.lg\:h-60{height:15rem}.lg\:flex-1{flex:1 1 0%}}@media (min-width:1400px){.xl\:container{width:100%}@media (min-width:749px){.xl\:container{max-width:749px}}@media (min-width:990px){.xl\:container{max-width:990px}}@media (min-width:1200px){.xl\:container{max-width:1200px}}@media (min-width:1400px){.xl\:container{max-width:1400px}}.xl\:py-20{padding-top:5rem;padding-bottom:5rem}.xl\:py-10{padding-top:2.5rem;padding-bottom:2.5rem}}
+  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta name="description" content="Stores by Soulja">
+  
+
+
+  <link rel="canonical" href="https://storesbysoulja.com/">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin><meta property="og:locale" content="en" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content=" Stores by Soulja" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://storesbysoulja.com/" />
+
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/46011646107/digital_wallets/dialog">
+<script>
+  (function() {
+    var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.8645d252f07ec25fdbc6.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~Information~NoAddressLocation~Payment~PostPurchase~Review~Shipping~ShopPay~Sho~cf13f96e.latest.en.04837ae4ff5a8e949953.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.en.84ff9c0024faf7f72c14.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.900911b3d82c82309ebf.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.en.86cd9328cdcd6cd3a58f.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.en.b4546f9bffad10b3673b.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~app.latest.en.f5154093d2604596d084.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.931851b1b02f1bcae42a.js"];
+    var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.en.9f2a5e9ec696775e2217.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.en.e788719f193b49c039a3.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.6b4c79ead7042980b29d.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.en.da9f06164a980bf8e7ea.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.9a0274ab07be120c1902.css"];
+
+    function prefetch(url, as, callback) {
+      var link = document.createElement('link');
+      if (link.relList.supports('prefetch')) {
+        link.rel = 'prefetch';
+        link.fetchPriority = 'low';
+        link.as = as;
+        link.href = url;
+        link.onload = link.onerror = callback;
+        document.head.appendChild(link);
+      } else {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.onloadend = callback;
+        xhr.send();
+      }
+    }
+
+    function prefetchAssets() {
+      var resources = [].concat(
+        scripts.map(function(url) { return [url, 'script']; }),
+        styles.map(function(url) { return [url, 'style']; })
+      );
+      var index = 0;
+      (function next() {
+        var res = resources[index++];
+        if (res) prefetch(res[0], res[1], next);
+      })();
+    }
+
+    addEventListener('load', prefetchAssets);
+   })();
+</script>
+<script id="shopify-features" type="application/json">{"accessToken":"5c2421d3b54830f29e55b336530ad88f","betas":["rich-media-storefront-analytics"],"domain":"storesbysoulja.com","predictiveSearch":true,"shopId":46011646107,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js?v=2","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js?v=2","locale":"en","optimusEnabled":false}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "abadiania-development.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "US";
+Shopify.theme = {"name":"Theme export  dropsmartglobal-com-shopify-theme...","id":131094741147,"theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "cdn.shopify.com";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script id="__st">var __st={"a":46011646107,"offset":-14400,"reqid":"bf946b04-8233-411e-a13c-6e146f82c929","pageurl":"storesbysoulja.com\/?wbraid=ClIKCQjwy9-kBhDpARJBADJoP78X9grpGGL6OQ7TPobRCBj7OlplcaCg3fNDOgDsQ4s_xqnLmglux9YlD3zWrBLnomHFKwcu8Zp_yFlkswEaAtOD\u0026gc_id=20299285605\u0026h_ad_id=663467238616","u":"6f1b7afa1122","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
+<script integrity="sha256-PxOtY43aY0IIRkJyboCWUgXVuC12GAXQ8LKFAxO8H98=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-3f13ad638dda6342084642726e80965205d5b82d761805d0f0b2850313bc1fdf.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+
+
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script> <!-- Header hook for plugins -->
+
+<link rel="preload" href="//storesbysoulja.com/cdn/shop/t/3/assets/tailwind.css?v=10997087029093534161684521689" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="//storesbysoulja.com/cdn/shop/t/3/assets/tailwind.css?v=10997087029093534161684521689"></noscript>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+
+
+
+  <script src="//storesbysoulja.com/cdn/shop/t/3/assets/global.js?v=54070008297866200981684521689" defer="defer"></script>
+
+<meta property="og:site_name" content="Stores by Soulja">
+<meta property="og:url" content="https://storesbysoulja.com/">
+<meta property="og:title" content="Stores by Soulja">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Stores by Soulja"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stores by Soulja">
+<meta name="twitter:description" content="Stores by Soulja">
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3L6TQ7');</script>
+<!-- End Google Tag Manager -->
+  
+  <!-- FB domain verification -->
+    <meta name="facebook-domain-verification" content="uv7h7osqm6xowbkg0ya1v9pen6fz6e" />
+  <!-- End domain verification -->
+
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 46011646107,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script id="evids-setup">
+  (function () {let t,e;function n(){t={page_viewed:{},collection_viewed:{},product_viewed:{},product_variant_viewed:{},search_submitted:{},product_added_to_cart:{},checkout_started:{},checkout_completed:{},payment_info_submitted:{},session_started:{}},e={wpm:{},trekkie:{}}}function o(t){return`${t||"sh"}-${function(){const t="xxxx-4xxx-xxxx-xxxxxxxxxxxx";let e="";try{const n=window.crypto,o=new Uint16Array(31);n.getRandomValues(o);let r=0;e=t.replace(/[x]/g,(t=>{const e=o[r]%16;return r++,("x"===t?e:3&e|8).toString(16)})).toUpperCase()}catch(n){e=t.replace(/[x]/g,(t=>{const e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)})).toUpperCase()}return`${function(){let t=0,e=0;t=(new Date).getTime()>>>0;try{e=performance.now()>>>0}catch(t){e=0}const n=Math.abs(t+e).toString(16).toLowerCase();return"00000000".substr(0,8-n.length)+n}()}-${e}`}()}`}function r(n,r){if(!t[n]||"trekkie"!==(null==r?void 0:r.analyticsFramework)&&"wpm"!==(null==r?void 0:r.analyticsFramework))return o("shu");const i="string"==typeof(c=r.cacheKey)&&c?c:"default";var c;const a=function(t,n,o){const r=e[n];return void 0===r[t]&&(r[t]={}),void 0===r[t][o]?r[t][o]=0:r[t][o]+=1,r[t][o]}(n,r.analyticsFramework,i);return function(e,n,r){const i=t[e];if(void 0===i[r]){const t=o();i[r]=[t]}else if(void 0===i[r][n]){const t=o();i[r].push(t)}return i[r][n]}(n,a,i)}function i(){window.Shopify=window.Shopify||{},n(),window.Shopify.evids=(t,e)=>r(t,e)}i();})();
+</script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,t,o,r,i){var s=i||[],l=null!==e;l&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var d=function(){var e="legacy",n="unknown",a=null,t=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),o=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):o?(n="edge",a=parseInt(o[2],10)):t&&(n=t[1].toLocaleLowerCase(),a=parseInt(t[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}().substring(0,1),c=t.substring(0,1);if(l)try{self.performance.mark("wpm:start")}catch(e){}var p,u,f,w,h,y,m,g,v=[a,s.indexOf("web_pixels_manager_runtime_asset_prefix")>-1?"/wpm":null,"/",c,r,d,".js"].join("");p={src:v,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:o||"latest",page_url:self.location.href,status:"failed",error_msg:v+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const t=new XMLHttpRequest;try{return t.open("POST",n,!0),t.setRequestHeader("Content-Type","text/plain"),t.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},u=document.createElement("script"),f=p.src,w=p.async||!0,h=p.onload,y=p.onerror,m=document.head,g=document.body,u.async=w,u.src=f,h&&u.addEventListener("load",h),y&&u.addEventListener("error",y),m?m.appendChild(u):g?g.appendChild(u):console.error("Did not find a head or body element to append the script")})({shopId: 46011646107,storefrontBaseUrl: "https://storesbysoulja.com",cdnBaseUrl: "https://storesbysoulja.com/cdn",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint","web_pixels_shopify_pixel_validation","web_pixels_prefetch_assets","web_pixels_manager_runtime_asset_prefix","web_pixels_async_pixel_refactor"],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0544","apiClientId":"shopify-pixel","type":"APP"},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0544","apiClientId":"shopify-pixel","type":"CUSTOM"}],initData: {"cart":null,"checkout":null,"customer":null,"productVariants":[]},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://storesbysoulja.com/cdn","browser","0.0.316","57009c8ew26a7537apa21d7da7m9a5d2eec",["web_pixels_use_shop_domain_monorail_endpoint","web_pixels_shopify_pixel_validation","web_pixels_prefetch_assets","web_pixels_manager_runtime_asset_prefix","web_pixels_async_pixel_refactor"]);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.onerror = function(e) {
+        var scriptFallback = document.createElement('script');
+        scriptFallback.type = 'text/javascript';
+        scriptFallback.onerror = function(error) {
+                var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 46011646107,
+      theme_id: 131094741147,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.0971b636a86a20ffd496149381a68cd43c35df09.min.js"});
+
+        };
+        scriptFallback.async = true;
+        scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.0971b636a86a20ffd496149381a68cd43c35df09.min.js';
+        first.parentNode.insertBefore(scriptFallback, first);
+      };
+      script.async = true;
+      script.src = 'https://cdn.shopify.com/s/trekkie.storefront.0971b636a86a20ffd496149381a68cd43c35df09.min.js';
+      first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":46011646107,"isMerchantRequest":null,"themeId":131094741147,"themeCityHash":"15749974731092297926","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer"}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+  
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+
+        var eventsListenerScript = document.createElement('script');
+        eventsListenerScript.async = true;
+        eventsListenerScript.src = "//storesbysoulja.com/cdn/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
+        document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "Dropsmart Official Theme";
+  window.BOOMR.themeVersion = "0.0.1";
+  window.BOOMR.shopId = 46011646107;
+  window.BOOMR.themeId = 131094741147;
+  window.BOOMR.renderRegion = "gcp-us-central1";
+  window.BOOMR.url =
+    "https://storesbysoulja.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+</head>
+<body class="bg-gray-700">
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3L6TQ7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+      <div id="shopify-section-notice-bar" class="shopify-section"><div class="notice-bar fixed top-0 w-full z-[100]">
+  
+</div>
+
+
+
+<style>
+  #scroll{
+    z-index: 999999;
+  }
+</style>
+</div>
+      <div id="shopify-section-header" class="shopify-section">
+
+<div  class="header fixed  w-full h-auto z-[100]  hidden  " id="header"  x-data="{mobileMenuOpen: false, searchBarOpen: false}">
+    <div class="relative m-header px-2" style="background-color:#182023" >
+        <div class="xl:container mx-auto px-2 sm:px-6 h-[72px]">
+      <div class="flex items-center py-5 justify-between md:space-x-10  h-[72px]   md:w-full ">
+              <div class="flex items-center justify-between w-full max-w-[300px]">
+                  <div class="md:hidden">
+                      <button aria-label="Name" name="Open Menu Mobile" x-on:click="mobileMenuOpen = true" type="button" class=" p-2 inline-flex items-center justify-center focus:outline-none">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" fill=" #ffffff "  />
+</svg>
+                      </button>
+                  </div>
+                  <!-- STORE NAME / STORE LOGO -->
+                  <div class="flex justify-start lg:flex-1 truncate">
+
+                  
+                      <a  class="header__logo-title">
+                          <h1 class=" text-white  t5SemiBold md:text-t4SemiBold font-extrabold truncate ">Stores by Soulja  </h1>
+                      </a>
+                  
+                  </div>
+                    <!-- CART BUTTON / ACCOUNT LINKS IF ENABLED -->
+                    <div class=" min-w-[20px]">
+                      
+                    </div>
+
+
+
+              </div>
+
+              <div class="items-center w-full justify-end hidden md:flex">
+                  <!-- NAVIGATION MENU -->
+                  <nav class="hidden md:flex space-x-6">
+                      
+                      
+                  </nav>
+
+                   <!-- CART BUTTON / ACCOUNT LINKS IF ENABLED -->
+                    <div class="hidden md:flex items-center space-x-6 ml-3">
+                        
+                        <button aria-label="Open Search" name="Open Search" x-on:click="searchBarOpen = true" type="button" class="p-2 whitespace-nowrap text-base text-gray-500 hover:text-gray-900">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9 17.3L10.3 11.7C9.8 12.1 9.225 12.4167 8.575 12.65C7.925 12.8833 7.23333 13 6.5 13C4.68333 13 3.146 12.371 1.888 11.113C0.629333 9.85433 0 8.31667 0 6.5C0 4.68333 0.629333 3.14567 1.888 1.887C3.146 0.629 4.68333 0 6.5 0C8.31667 0 9.85433 0.629 11.113 1.887C12.371 3.14567 13 4.68333 13 6.5C13 7.23333 12.8833 7.925 12.65 8.575C12.4167 9.225 12.1 9.8 11.7 10.3L17.325 15.925C17.5083 16.1083 17.6 16.3333 17.6 16.6C17.6 16.8667 17.5 17.1 17.3 17.3C17.1167 17.4833 16.8833 17.575 16.6 17.575C16.3167 17.575 16.0833 17.4833 15.9 17.3ZM6.5 11C7.75 11 8.81267 10.5627 9.688 9.688C10.5627 8.81267 11 7.75 11 6.5C11 5.25 10.5627 4.18733 9.688 3.312C8.81267 2.43733 7.75 2 6.5 2C5.25 2 4.18733 2.43733 3.312 3.312C2.43733 4.18733 2 5.25 2 6.5C2 7.75 2.43733 8.81267 3.312 9.688C4.18733 10.5627 5.25 11 6.5 11Z" fill=" #ffffff " />
+</svg>
+
+                        </button>
+                        
+
+
+
+
+
+                    </div>
+
+
+            </div>
+                <!-- MOBILE MENU CONTAINER -->
+                <div x-show="mobileMenuOpen" class="absolute z-10 top-0 inset-x-0 p-2 transform origin-top-left md:hidden">
+                    <div class="shadow-lg rounded-lg ring-1 ring-black ring-opacity-5 bg-white w-full">
+                        <div class="p-5 divide-y-2 divide-gray-50 menu-open">
+
+                            <!-- MOBILE MENU HEADER TITLE PLUS CLOSE BUTTON -->
+
+                            <div class="flex items-center justify-between pb-3">
+                                <div class="-mr-2">
+                                    <button aria-label="Open Menu Mobile" name="Open Menu Mobile" x-on:click="mobileMenuOpen = false" type="button" class=" icon-menu-open rounded-md p-2 text-gray-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke=" #ffffff ">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" fill=" #ffffff "  />
+</svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- NAVIGATION LINKS FOR MOBILE MENU -->
+                            <div class="pt-3 menu-open-padding">
+                                <nav class="grid gap-y-3">
+                                    
+                                    
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div x-show="searchBarOpen" style="background-color:#182023"  class="w-full absolute left-0 top-0 h-[76px] z-[100]">
+        <div class="xl:container mx-auto px-2 sm:px-6">
+            <div class="flex items-center h-[76px] z-[100] justify-center ">
+                <div class="px-2 flex justify-center items-center">
+                    <form action="/search" method="get" class="flex-auto">
+                        <div class="relative text-gray-500 w-[90%] md:w-[520px] relative ">
+                            <input type="text" name="q" placeholder="Buscar" class=" p-3 w-full bg-white h-12 border border-gray-100 rounded-lg  rounded text-sm ">
+                            <button aria-label="Searh" name="Search" type="submit" class="absolute right-4 top-4 ">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9 17.3L10.3 11.7C9.8 12.1 9.225 12.4167 8.575 12.65C7.925 12.8833 7.23333 13 6.5 13C4.68333 13 3.146 12.371 1.888 11.113C0.629333 9.85433 0 8.31667 0 6.5C0 4.68333 0.629333 3.14567 1.888 1.887C3.146 0.629 4.68333 0 6.5 0C8.31667 0 9.85433 0.629 11.113 1.887C12.371 3.14567 13 4.68333 13 6.5C13 7.23333 12.8833 7.925 12.65 8.575C12.4167 9.225 12.1 9.8 11.7 10.3L17.325 15.925C17.5083 16.1083 17.6 16.3333 17.6 16.6C17.6 16.8667 17.5 17.1 17.3 17.3C17.1167 17.4833 16.8833 17.575 16.6 17.575C16.3167 17.575 16.0833 17.4833 15.9 17.3ZM6.5 11C7.75 11 8.81267 10.5627 9.688 9.688C10.5627 8.81267 11 7.75 11 6.5C11 5.25 10.5627 4.18733 9.688 3.312C8.81267 2.43733 7.75 2 6.5 2C5.25 2 4.18733 2.43733 3.312 3.312C2.43733 4.18733 2 5.25 2 6.5C2 7.75 2.43733 8.81267 3.312 9.688C4.18733 10.5627 5.25 11 6.5 11Z" fill="#3477d7" />
+</svg>
+
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                    <button aria-label="Close Search" name="OClose Search" type="button" x-on:click="searchBarOpen = false" class="ml-0 md:ml-4" >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke=" #ffffff ">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" fill=" #ffffff "  />
+</svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    noticeBarElement = document.querySelector(".notice-bar");
+    noticeBarHeight = noticeBarElement.offsetHeight;
+    document.getElementById('header').style.top = `${noticeBarHeight}px` ;
+</script>
+
+
+<style data-shopify>
+    .m-header{
+        box-shadow: 0px -22px 80px rgba(0, 0, 0, 0.08), 0px -5.61409px 17.869px rgba(0, 0, 0, 0.0476886), 0px -1.83393px 5.32008px rgba(0, 0, 0, 0.0323114);
+    }
+    .icon-menu-open{
+        position: relative;
+        top: -70px;
+        left: -17px;
+        background-color:#182023
+    }
+    .menu-open{
+        margin-top: 60px;
+    }
+    .menu-open-padding{
+        margin-top: -60px;
+    }
+    .menu-black:hover{
+        color: #3477d7
+    }
+    .menu-white:hover{
+        color: #fff;
+        background: rgba(255, 255, 255, 0.05);
+    }
+    .menu-white.active{
+        color: #ffffff;
+        background: rgba(255, 255, 255, 0.05);
+    }
+    .active{
+        color: #3477d7
+    }
+</style></div>
+
+
+  <main role="main " class="main" id="main">
+    <section><div id="shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7" class="shopify-section"><div class="
+ bg-gray-100 py-16 md:py-20 px-4 md:px-20 relative  "
+ style="  background-color:#3477d7 ">
+
+
+
+<div class=" xl:container mx-auto px-4 z-10 relative">
+    <div id="scontent" class=" ">
+      
+            
+              <div class="mb-4 md:mb-8">
+  <div>
+    <h2 style="margin: 0 auto; max-width: 960px" class="mb-4 md:mb-8 text-t3Regular md:text-t2Regular font-extra-bold leading-9 md:leading-[46px]
+text-white 
+ text-center  ">
+  Get a <u>Store Done For You</u> <br class="mobile-break"><span class="h2-m" style="color:#0D1824">by Me</span><br>in Under 30 Minutes and <span class="h2-m">Make Your <u>First Sales</u> <span style="color:#0D1824">Today</span></span>!
+</h2>
+<br>
+<h2 style="margin: 0 auto; max-width: 960px; text-align: center;" class="subtt mb-4 md:mb-8 text-t3Regular md:text-t2Regular font-extra-bold leading-9 md:leading-[46px]
+text-white"> Kickstart Your Journey by Using the Same Store That Made Me 8+ Digits</h2>
+  </div>
+
+</div>
+            
+
+          
+      
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+<style data-shopify>
+
+.fullscreen {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &::-webkit-media-controls {
+     display:none !important;
+  }
+}
+
+
+
+.titlefaq::after {
+  transform: rotate(90deg);
+}
+
+.content {
+  max-height: 0;
+  transition: max-height .20s;
+}
+.toggle:checked ~ .teste {
+  border: none;
+}
+.minus{
+  display:none;
+}
+.toggle:checked  ~ .teste .more {
+  display: none;
+}
+.toggle:checked  ~ .teste .minus {
+  display: block;
+}
+.toggle:checked ~ .content {
+  border-bottom-width: 1px;
+}
+.toggle:checked ~ .titlefaq, .toggle:checked ~ .content {
+
+}
+ .toggle:checked ~ .content {
+  max-height: inherit!important;
+}
+.toggle:checked  .more  ~ .content {
+  max-height: inherit!important;
+}
+label.t2:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+}
+.scontentVideo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+
+<script>
+
+window.onload = (event) => {
+  var myLi = document.getElementById('scontent');
+  myLi.lastElementChild.style.marginBottom = '0px';
+  console.log(myLi)
+};
+</script><style> @media (max-width: 600px) {#shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 h2 {font-size: 1.5em; line-height: 1.2em; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .h2-m {font-size: 0.9em; line-height: 1.2em; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .subtt {font-size: 1em; line-height: 1.2em; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .mobile-break {display: block; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .desktop-break {display: none; }} @media (min-width: 601px) {#shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 h2 {font-size: 2.4em; line-height: 1.3em; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .subtt {font-size: 1.5em; line-height: 1em; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .mobile-break {display: none; } #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .desktop-break {display: block; }} #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 .bonus-t {text-align: left; font-size: 1.7em;} #shopify-section-template--15859403456667__58ff3782-18ca-4983-b64b-cfeca33dabc7 div {margin-bottom: -30px; margin-top: -20px;} </style></div><div id="shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2" class="shopify-section"><div class="
+ bg-gray-100 py-16 md:py-20 px-4 md:px-20 relative  "
+ style="  background-color:#0d1824 ">
+
+
+
+<div class=" xl:container mx-auto px-4 z-10 relative">
+    <div id="scontent" class=" ">
+      
+            
+              <div class="mb-4 md:mb-8">
+  <div>
+    <div class="xl:container mx-auto relative z-50 justify-center w-full">
+
+  <div class="w-full grid grid-cols-12 gap-0 md:gap-8 h-auto  items-center    ">
+
+      <div class=" w-full mt-4 md:mt-0 col-span-12 md:col-span-4">
+
+          <div class="mb-4 md:mb-8">
+              <div class="soulja-img">
+                <img src="https://cdn.shopify.com/s/files/1/0460/1164/6107/files/hero-image-compressed.png?v=1684559314">
+              </div>
+
+          </div>
+
+
+
+      </div>
+      <div class=" w-full mt-4 md:mt-0 col-span-12 md:col-span-8 flex flex-col gap-4 md:gap-8
+        flex-end 
+         row-span-full 
+        ">
+
+          <div class="mb-4 md:mb-8">
+
+              <div class="bonus" style="margin: 10px auto 0; width: 90%;">
+                  <p class="bonus-t" style="color: #ffffff; width: 100%"><b>💎 Online Store Ready to Sell: </b><span style="color:#3477D7"><s>$997</s></span></p>
+                  <p class="bonus-p" style="color: #ffffff; width: 80%">You will get the same template of my multiple 8 digits store, fully functional and customized to your preferences.</p>
+                  <br>
+                  <p class="bonus-t" style="color: #ffffff; width: 100%"><b>💎 10 Hand-Picked Proven Products: </b><span style="color:#3477D7"><s>$389</s></span></p>
+                  <p class="bonus-p" style="color: #ffffff; width: 100%">Not any products. You will get proven products taken directly from my store.</p>
+                  <br>
+                  <p class="bonus-t" style="color: #ffffff; width: 100%"><b>From $1.395 To <span style="color:#1ee15f">$37</span></b></p>
+                  <p class="bonus-p" style="color: #ffffff; width: 100%">*first 50 only</p>
+              </div>
+              <br>
+              <div class="announcement-m desktop" style="margin-left: 40px; margin-right: auto; margin-top: 10px; width: 70%; border-radius: 4px; background:#3477D7; padding: 5px;">
+                  <p class="announcement-p" style="color: #ffffff; width: 100%; text-align: center"><b>This is your <u>ONLY chance</u> to
+                          get a Built For You Store, for only $37.</b><br>If you close this page, you may never see this offer again.</p>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <a href="https://pay.hotmart.com/V80241203N?off=wtjmn98o&amp;checkoutMode=10"><div class="button-offer" style="margin-left: auto; margin-right: auto; margin-top: 20px; width: 30%; border-radius: 4px; background:#15c550; padding: 5px;">
+                  <p class="button-p" style="color: #ffffff; width: 100%; text-align: center; font-size: 1.6em"><b>Get Your Store Now</b></p>
+  </div></a>
+
+  <div class="announcement-m mobile" style="margin-left: 40px; margin-right: auto; margin-top: 10px; width: 70%; border-radius: 4px; background:#3477D7; padding: 5px;">
+    <p class="announcement-p" style="color: #ffffff; width: 100%; text-align: center"><b>This is your <u>ONLY chance</u> to
+            get a Built For You Store, for only $37.</b><br>If you close this page, you may never see this offer again.</p>
+</div>
+
+</div>
+
+<style>
+@keyframes pulse {
+0% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+}
+70% {
+  transform: scale(1);
+  box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+}
+100% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+}
+}
+
+.button-offer:hover {
+-webkit-animation: none;
+}
+
+.button-offer {
+  animation: pulse 1.5s infinite;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px; 
+  width: 20%; 
+  border-radius: 4px; 
+  background:#15c550; 
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .announcement-p {
+    font-size: 0.9em;
+  }
+  .announcement-m {
+    width: 99% !important;
+    margin-left: auto !important;
+    margin-bottom: 35px !important;
+  }
+
+  .button-offer {
+    width: 99% !important;
+    margin-left: auto !important;
+  }
+
+  .button-p {
+    font-size: 1.4em !important;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+    .mobile {
+        display: none;
+    }
+}
+</style>
+  </div>
+
+</div>
+            
+
+          
+      
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+<style data-shopify>
+
+.fullscreen {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &::-webkit-media-controls {
+     display:none !important;
+  }
+}
+
+
+
+.titlefaq::after {
+  transform: rotate(90deg);
+}
+
+.content {
+  max-height: 0;
+  transition: max-height .20s;
+}
+.toggle:checked ~ .teste {
+  border: none;
+}
+.minus{
+  display:none;
+}
+.toggle:checked  ~ .teste .more {
+  display: none;
+}
+.toggle:checked  ~ .teste .minus {
+  display: block;
+}
+.toggle:checked ~ .content {
+  border-bottom-width: 1px;
+}
+.toggle:checked ~ .titlefaq, .toggle:checked ~ .content {
+
+}
+ .toggle:checked ~ .content {
+  max-height: inherit!important;
+}
+.toggle:checked  .more  ~ .content {
+  max-height: inherit!important;
+}
+label.t2:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+}
+.scontentVideo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+
+<script>
+
+window.onload = (event) => {
+  var myLi = document.getElementById('scontent');
+  myLi.lastElementChild.style.marginBottom = '0px';
+  console.log(myLi)
+};
+</script><style> @media (max-width: 600px) {#shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .bonus-t {font-size: 1.4em; line-height: 1.3em; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .subtt {font-size: 1em; line-height: 1em; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .mobile-break {display: block; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .desktop-break {display: none; }} @media (min-width: 601px) {#shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 h2 {font-size: 2.4em; line-height: 1.3em; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .subtt {font-size: 1.5em; line-height: 1em; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .mobile-break {display: none; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .desktop-break {display: block; } #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 .bonus-t {text-align: left; font-size: 1.7em; }} #shopify-section-template--15859403456667__e7d829b3-c102-443f-9190-2ab541b492a2 div {margin-top: -20px;} </style></div><div id="shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b" class="shopify-section"><div class="
+ bg-gray-100 py-16 md:py-20 px-4 md:px-20 relative  "
+ style="  background-color:#3477d7 ">
+
+
+
+<div class=" xl:container mx-auto px-4 z-10 relative">
+    <div id="scontent" class=" ">
+      
+            
+              <div class="mb-4 md:mb-8">
+  <div>
+    <h2 style="margin: 0 auto; max-width: 960px" class="h2-t mb-4 md:mb-8 text-t3Regular md:text-t2Regular font-extra-bold leading-9 md:leading-[46px]
+text-white 
+ text-center  ">
+  Don't Take <span style="color:#0D1824">My Word</span> For It!
+</h2>
+<h2 style="margin: 0 auto; max-width: 960px; text-align: center;" class="h2-subt mb-4 md:mb-8 text-t3Regular md:text-t2Regular font-extra-bold leading-9 md:leading-[46px]
+text-white"> Just Check These <u>Results</u>...</h2>
+  </div>
+
+</div>
+            
+
+          
+      
+
+              <div class=" mb-4 md:mb-4 flex  justify-center  ">
+
+
+        <img width="" height=""  src="//storesbysoulja.com/cdn/shop/files/Group_40072_1.png?v=1684601991 "  alt="" class="
+           hidden md:block 
+          
+            max-w-[100%]
+          
+          inline-block
+
+        ">
+
+
+
+      <img width="" height="" src="//storesbysoulja.com/cdn/shop/files/Mask_group_4_1.png?v=1684602572 " alt="" class="
+          block md:hidden 
+          
+            max-w-[100%]
+          
+          inline-block
+
+        ">
+
+
+
+
+
+</div>
+
+
+          
+      
+            
+              <div class="mb-4 md:mb-8">
+  <div>
+    <a href="https://pay.hotmart.com/V80241203N?off=wtjmn98o&amp;checkoutMode=10"><div class="button-offer" style="margin-left: auto; margin-right: auto; margin-top: 40px; width: 30%; border-radius: 4px; background:#15c550; padding: 5px;">
+                  <p class="announcement-p" style="color: #ffffff; width: 100%; text-align: center; font-size: 1.4em"><b>Get Your Store Now</b></p>
+              </div></a>
+
+
+<style>
+@keyframes pulse {
+0% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+}
+70% {
+  transform: scale(1);
+  box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+}
+100% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+}
+}
+
+.button-offer:hover {
+-webkit-animation: none;
+}
+
+.button-offer {
+  animation: pulse 1.5s infinite;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px; 
+  width: 20%; 
+  border-radius: 4px; 
+  background:#15c550; 
+  padding: 5px;
+}
+
+
+</style>
+  </div>
+
+</div>
+            
+
+          
+      
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+<style data-shopify>
+
+.fullscreen {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &::-webkit-media-controls {
+     display:none !important;
+  }
+}
+
+
+
+.titlefaq::after {
+  transform: rotate(90deg);
+}
+
+.content {
+  max-height: 0;
+  transition: max-height .20s;
+}
+.toggle:checked ~ .teste {
+  border: none;
+}
+.minus{
+  display:none;
+}
+.toggle:checked  ~ .teste .more {
+  display: none;
+}
+.toggle:checked  ~ .teste .minus {
+  display: block;
+}
+.toggle:checked ~ .content {
+  border-bottom-width: 1px;
+}
+.toggle:checked ~ .titlefaq, .toggle:checked ~ .content {
+
+}
+ .toggle:checked ~ .content {
+  max-height: inherit!important;
+}
+.toggle:checked  .more  ~ .content {
+  max-height: inherit!important;
+}
+label.t2:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+}
+.scontentVideo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+
+<script>
+
+window.onload = (event) => {
+  var myLi = document.getElementById('scontent');
+  myLi.lastElementChild.style.marginBottom = '0px';
+  console.log(myLi)
+};
+</script><style> @media (max-width: 600px) {#shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .h2-t {font-size: 1.5em; line-height: 1.2em; margin-bottom: 10px !important; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .h2-subt {font-size: 1em; line-height: 1em; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .mobile-break {display: block; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .desktop-break {display: none; }} @media (min-width: 601px) {#shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .h2-t {font-size: 2.4em; line-height: 1.3em; margin-bottom: 10px !important; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .h2-subt {font-size: 1.5em; line-height: 1em; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .mobile-break {display: none; } #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .desktop-break {display: block; }} #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b .bonus-t {text-align: left; font-size: 1.7em;} #shopify-section-template--15859403456667__f4ced8d2-bda5-4182-9ab6-eac879b3ec3b div {} </style></div></section>
+  </main>
+
+  <div id="shopify-section-footer" class="shopify-section">
+
+<div class="text-white py-16 xl:py-20  px-4 md:px-20" style="background-color:#434a54">
+  <div class="xl:container mx-auto px-4">
+
+<div class="grid grid-cols-1  md:grid-cols-2 gap-4  grid-flow-row auto-col-[minmax(0,_2fr)]">
+
+      
+      
+      
+
+        <div>
+          <h2 class="text-largeBody font-extra-bold  text-white  mb-2 ">Links</h2>
+          <nav class="flex flex-col">
+            <ul class="list-disc pl-5">
+              
+              
+                  <li class="mb-1">
+                    <a href="/pages/contact" class=" text-white  text-small font-semibold ">Contact</a>
+                  </li>
+              
+                  <li class="mb-1">
+                    <a href="/pages/privacy-policy" class=" text-white  text-small font-semibold ">Privacy Policy</a>
+                  </li>
+              
+                  <li class="mb-1">
+                    <a href="/pages/terms-of-service" class=" text-white  text-small font-semibold ">Terms of Service</a>
+                  </li>
+              
+                  <li class="mb-1">
+                    <a href="/pages/refund-policy" class=" text-white  text-small font-semibold ">Refund Policy</a>
+                  </li>
+              
+            </ul>
+
+        </nav>
+        </div>
+        
+        
+      
+      
+        <div>
+          <h2 class="text-largeBody font-extra-bold  text-white  mb-2 ">Contact us:</h2>
+          <div class="text-small  text-white " >
+            <p><strong>E-mail: </strong>support@storesbysoulja.com</p>
+          </div>
+        </div>
+        
+        
+    </div><hr class="border-black border-opacity-30 h-[1px] w-[30%] md:w-full m-auto" />
+
+    <div class="footer-content-bottom py-8 flex justify-center md:justify-between flex-col md:flex-row  ">
+      <div class="footer-copyright w-full md:w-[370px] caption text-center md:text-left mb-4">
+          <small class="block text-micro  text-white ">© 2023, Dropsmart Development</small>
+
+          </div>
+
+
+            </div>
+
+
+      </div></div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<style data-shopify>
+  .footer-currency {
+    width: auto;
+  }
+  .footer ul {
+  list-style: none;
+  }
+
+  .footer .list-disc{
+    list-style:none ;
+  }
+  .footer ul li::before {
+  content: "\2022";
+  color:  #fff  ;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.footer ul li::maker {
+  dislay:none!important;
+}
+.menu-footer ul{
+  padding-left: 1.25rem;
+}
+.menu-footer li{
+  margin-bottom: 0.25rem;
+  line-height: 24px;
+
+}
+</style>
+</div>
+
+</body>
+
+<script>
+
+  divElement = document.querySelector(".header");
+  divElement2 = document.querySelector(".notice-bar");
+
+  elemHeight = divElement.offsetHeight + divElement2.offsetHeight;
+
+  document.getElementById('main').style.marginTop = `${elemHeight}px` ;
+
+  window.routes = {
+    cart_add_url: '/cart/add',
+    cart_change_url: '/cart/change',
+    cart_update_url: '/cart/update'
+  };
+  window.cartStrings = {
+    error: `There was an error while updating your cart. Please try again.`,
+    quantityError: `You can only add {{ quantity }} of this item to your cart.`
+  }
+  window.variantStrings = {
+    addToCart: `Add to cart`,
+    soldOut: `Sold out`,
+    unavailable: `Unavailable`,
+  }
+  window.accessibilityStrings = {
+    shareSuccess: `Link copied to clipboard`,
+  }
+</script>
+
+
+<script>
+  var btn = document.querySelector(".get-store-button");
+var popup = document.getElementById("popup");
+var span = document.getElementById("close");
+
+btn.onclick = function() {
+  popup.style.display = "block";
+}
+
+span.onclick = function() {
+  popup.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+</script>
+
+
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/application.js?v=101966972411462175581684521688" defer="defer"></script>
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/alpine.js?v=12240863704940899691684521688" defer="defer"></script>
+
+
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/slider.js?v=137287383751702915051684521689" defer></script>
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/slider-hero.js?v=56843040983914034761684521689" defer></script>
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/slider-card.js?v=109890310701805700231684521689" defer></script>
+
+
+
+
+<script src="//storesbysoulja.com/cdn/shop/t/3/assets/translate.js?v=68193369156697744451684521689" defer></script>
+
+<style>
+   .btn-clear-hover:hover{
+    background: rgba(52,119,215,0.05)!important;
+  }
+  .btn-full-hover:hover{
+    background : #1b498a!important;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+</style>
+
+
+
+</html>
